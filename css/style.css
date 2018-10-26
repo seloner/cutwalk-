@@ -1,0 +1,39 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: Poppins;
+}
+p{
+  font-family: Roboto;  
+}
+.navbar-brand{
+    margin-left: 20px !important;
+}
+.navbar-default{
+    background:#fff;
+    border:0;
+    font-family:Poppins;
+}
+  
+.navbar-brand{
+      font-size:20px;
+      color:#000 !important;
+      font-weight: bold;
+}
+  
+#showcase h1{
+      font-size:50x;
+      margin-bottom:20px;
+}
+#showcase img{
+      width: 90%;
+      float:left;
+}
+
+#showcase .showcase-right{
+      margin-top: 90px;
+      margin-right: 10px;
+}
+#showcase{
+    margin-left: 50px;
+    float:left;
+
+}
