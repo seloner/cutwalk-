@@ -1,1 +1,1 @@
-Cutalk.
+Cutalk
