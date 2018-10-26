@@ -1,83 +1,98 @@
 body{
-    margin-left: 220px;
-    background-image: url(/img/background.jpeg);
+  margin-top:70px;
+  font-size:16px;
 }
+
 h1,h2,h3,h4,h5,h6{
-    font-family: Poppins;
+  font-family:Poppins;
 }
+
 p{
-  font-family: Roboto;  
-}
-#navbar{
-
-    margin-left: 50px;
-    
-
+  font-family:Roboto;
 }
 
-.navbar-brand{
-    margin-left: 20px !important;
-    font-size: 40px !important;
-} 
 .navbar-default{
-    background:rgb(253, 251, 251);
-    font-size: 20px;
-    border:0;
-    font-family:Poppins;
-    padding: 10px 10px 0px 100x;
-}
-  
-.navbar-brand{
-      font-size:20px;
-      color:#000 !important;
-      font-weight: bold;
+  background:#fff;
+  border:0;
+  font-family:Poppins;
 }
 
+.navbar-brand{
+  font-size:30px;
+  color:#000 !important;
+  font-weight:bold;
+  margin-left: 0px !important;
+}
 
 #showcase h1{
-      font-size:50x;
-      margin-bottom:20px;
+  font-size:50px;
+  margin-bottom:20px;
 }
+
 #showcase img{
-      width: 90%;
-      float:left;
+  width:90%;
+  margin-top: 20px;
+  margin-left:0px;
 }
 
 #showcase .showcase-right{
-      margin-top: 90px;
-      margin-right: 10px;
-}
-#showcase{
-    margin-left: 50px;
-    float:left;
-
-}
-#testmonial{
-    background: #f1f1f1;
-    padding:50px 0 30px 0;
-
-    margin-top:40px;
-}
-#testmonial p{
-    font-size:32px;
-    font-family: 'Josefin Sans';
-    color: #000;
+  margin-top:10px;
 }
 
-#testmonial #customer{
-    font-size: 25px;
-    color:#666;
-    text-align: center;
-}
-#info1{
-    margin-block-start: 20px;
-    background: #f1f1f1;
-    margin-block-end: 40px;
+#testimonial{
+  margin-top: 10px;
+  background:#f1f1f1;
+  padding: 50px 0px 40px 0px;
+  margin-bottom: 20px;
+  text-align: center;
+
 }
 
-#info1 img{
-    width: 60%;
-    margin-inline-start: 100px;
-    margin-block-start: 20px;
-    margin-block-end: 20px;
+#testimonial p{
+  font-size:20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#000;
+  
+}
+
+#testimonial p.customer{
+  font-size:20px;
+  color:#666;
+}
+
+#info1 .info-right{
+  margin-top:90px;
+}
+
+#info2{
+  margin:20px 0 60px 0;
+}
+
+#contact{
+  background:url(../img/image3.png);
+  padding:40px;
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+}
+
+footer{
+  padding:30px;
+}
+
+
+#contact p{
+  color:black;
+  font-family:Poppins;
+  font-size: 17px;
+  text-align: left;
+  font-weight: 500;
+  
+}
+
+#first-element{
+  border-bottom: 2px solid rgb(80, 75, 75);
+  border-radius: 15px;
+  width: 99%;
+  
 }
